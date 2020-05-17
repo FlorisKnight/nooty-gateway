@@ -3,7 +3,7 @@ zuul:
   routes:
     noots:
       path: /noot/**
-      url: http://noots-service:8091/noot
+      url: http://noot-service:8091/noot
     account:
       path: /account/**
       url: http://account-service:8081/account
