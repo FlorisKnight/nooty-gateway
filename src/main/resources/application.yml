@@ -1,0 +1,15 @@
+zuul:
+  ignoredServices: '*'
+  routes:
+    noots:
+      path: /noot/**
+      url: http://noots-service:8091/noot
+    account:
+      path: /account/**
+      url: http://localhost:8081/account
+    trends:
+      path: /hastag/**
+      url: http://hashtag-service:8071/hashtag
+    follow:
+      path: /follow/**
+      url: http://follow-service:8061/follow
