@@ -3,13 +3,13 @@ zuul:
   routes:
     noots:
       path: /noot/**
-      url: http://noots-service:8091/noot
+      url: http://noots-deployment:8091/noot
     account:
       path: /account/**
-      url: http://authentication-service:8081/account
+      url: http://authentication-deployment:8081/account
     trends:
       path: /hastag/**
-      url: http://hashtag-service:8071/hashtag
+      url: http://hashtag-deployment:8071/hashtag
     follow:
       path: /follow/**
-      url: http://follow-service:8061/follow
+      url: http://follow-deployment:8061/follow
