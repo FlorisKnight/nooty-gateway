@@ -8,7 +8,7 @@ zuul:
       path: /account/**
       url: http://account-service:8081/account
     trends:
-      path: /hastag/**
+      path: /hashtag/**
       url: http://hashtag-service:8071/hashtag
     follow:
       path: /follow/**
